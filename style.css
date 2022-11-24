@@ -1,4 +1,27 @@
 *{
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+body{
+background-color: black;
+background-image: url(/images/The_Verge_GOT_Landscape_Wallpaper.0.png);
+background-position: center;   
+background-repeat: no-repeat;   
+background-size: cover;
+background-attachment: fixed;
+}
+.glass{
+background: rgba(255, 255, 255, 0.18);
+border-radius: 8px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.3px);
+-webkit-backdrop-filter: blur(18.3px);
+
+
+width: 100px;
+height: 100px;
+}
+.home{
+    
 }
