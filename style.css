@@ -1,4 +1,26 @@
 *{
+
+    padding: none;
+    margin: none;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgba(255, 22, 206, 0.75);
+	color:#FFF;
+  backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}.my-float{
+	margin-top:22px;
+}
+=======
     padding: 0;
     margin: 0;
     color: aliceblue;
@@ -25,3 +47,4 @@ height: 100px;
 .home{
     
 }
+
