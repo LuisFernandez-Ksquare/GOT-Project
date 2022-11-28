@@ -11,6 +11,44 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.logo{
+  width: 1100px;
+}
+nav{
+  background: #2F032E;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(18.3px);
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #FFEF8E;
+}
+
+
 .glass {
   background: rgba(255, 255, 255, 0.18);
   border-radius: 8px;
@@ -23,7 +61,10 @@ body {
   height: 100vh;
 }
 .home{
-  height: 100vh;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .float {
