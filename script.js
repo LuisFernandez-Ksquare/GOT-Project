@@ -26,3 +26,4 @@ function scrollFunction() {
     document.querySelector('.navbar').style.top = "-150px";
   }
 }
+
