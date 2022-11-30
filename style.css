@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  border: 0;
   color: aliceblue;
   box-sizing: border-box;
 }
@@ -37,6 +38,7 @@ body {
   flex-direction: row;
   top: -200px;
   transition: top 0.2s;
+  z-index: 2;
 }
 nav {
   background: #2f032e;
@@ -44,6 +46,7 @@ nav {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.3px);
   -webkit-backdrop-filter: blur(18.3px);
+  z-index: 2;
 }
 
 ul {
@@ -202,18 +205,13 @@ button {
 
 section{
   height:100vh;
-
+  scroll-snap-align: start;
+  z-index: 0;
+}
+.scroll{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  z-index: 0;
 }
 
-.home{
-  background: rgb(36,164,138);
-}
-.glass{
-  background: rgb(211,79,79);
-}
-.mainContainer{
-  background: rgb(67,91,175);
-}
-.contact{
-  background: lightsalmon;
-}
