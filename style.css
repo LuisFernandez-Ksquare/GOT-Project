@@ -18,17 +18,17 @@ body {
   backdrop-filter: blur(18.3px);
   -webkit-backdrop-filter: blur(18.3px);
 }
-.home{
+.home {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.logo{
+.logo {
   width: 1100px;
 }
-.navbar{
+.navbar {
   display: flex;
   position: fixed;
   justify-content: center;
@@ -38,8 +38,8 @@ body {
   top: -200px;
   transition: top 0.2s;
 }
-nav{
-  background: #2F032E;
+nav {
+  background: #2f032e;
   border-radius: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.3px);
@@ -65,7 +65,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #FFEF8E;
+  background-color: #ffef8e;
 }
 
 .float {
@@ -140,58 +140,63 @@ img.img {
   padding-top: 25px;
 }
 
-.mainContainer{
+.mainContainer {
   display: flex;
-  gap:20px;
+  gap: 20px;
   flex-flow: wrap;
   justify-content: center;
   height: 100vh;
-  
 }
 
-.eventContainer{
+.eventContainer {
   background: rgba(16, 14, 39, 0.33);
   display: flex;
   align-content: center;
   align-items: center;
   border-radius: 25px;
   flex-direction: column;
-  width:28%;
+  width: 28%;
   min-width: 300px;
   max-height: 400px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  
 }
 
-.infoContainer{
-  display: flex ;
+.infoContainer {
+  display: flex;
   align-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
-.eventTitle{
+.eventTitle {
   font-weight: 800;
   font-size: 28px;
   margin-top: 10px;
   text-align: center;
 }
 
-
-.eventImg{
+.eventImg {
   border-radius: 5px;
   width: 100%;
   height: 275px;
 }
 
-.hour{
-  font-weight: 800;
-  font-size: 24px;
-  text-align: center;
-  padding-bottom: 20px;
-  
+.button-container-div {
+  height: 100vh;
+  border: 1px solid #ff8899;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+button {
+  background-color: black;
+  color: #fff;
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  outline: none;
+  margin: auto;
+  border-radius: 15px;
+}
