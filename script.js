@@ -17,12 +17,14 @@ floatButton.addEventListener("click", function () {
   }
 });
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.querySelector('.navbar').style.top = "0";
+    document.querySelector(".navbar").style.top = "0";
   } else {
-    document.querySelector('.navbar').style.top = "-150px";
-  }
+    document.querySelector(".navbar").style.top = "-150px";
+  }
 }
