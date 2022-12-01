@@ -36,11 +36,11 @@ body {
   align-items: center;
   width: 100%;
   flex-direction: row;
-  top: -200px;
+  top: 0px;
   transition: top 0.2s;
   z-index: 2;
 }
-nav {
+.nav {
   background: #2f032e;
   border-radius: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -147,6 +147,7 @@ img.img {
   gap: 20px;
   flex-flow: wrap;
   justify-content: center;
+  padding-top: 25px;
 }
 
 .eventContainer {
@@ -203,15 +204,14 @@ button {
   border-radius: 15px;
 }
 
-section{
-  height:100vh;
+section {
+  height: 100vh;
   scroll-snap-align: start;
   z-index: 0;
 }
-.scroll{
+.scroll {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
   z-index: 0;
 }
-
