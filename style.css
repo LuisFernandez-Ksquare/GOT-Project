@@ -2,45 +2,53 @@
   padding: 0;
   margin: 0;
   border: 0;
-  color: aliceblue;
+  color: #fc10e1;
   box-sizing: border-box;
+  font-family:'Montserrat';
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: darkmagenta;
+  background-color: #17081e;
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  background-color: #ffef8e;
+}
+
 .bg{
-  width: 75%;
+  width: 1250px;
   border-radius: 12px;
-  border: 10px solid fuchsia;
+  border: 10px solid #fc10e1;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .logo {
-  width: 40%;
+  width: 750px;
 }
 .content{
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
-.glass {
-  background: rgba(255, 255, 255, 0.18);
-  border-radius: 8px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(18.3px);
-  -webkit-backdrop-filter: blur(18.3px);
-}
-.home {
+.countdown{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  width: 150px;
+  font-weight: 900;
 }
 
-
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .navbar {
 z-index: 2;
@@ -51,8 +59,8 @@ justify-content: center;
 align-items: center;
 width: 100%;
 flex-direction: row;
-transition: top 0.3s;
-background-color: darkmagenta;
+transition: top 0.3s ease-in;
+background-color: #fc10e1;
 font-family: Helvetica, sans-serif;
 font-size: 40px;
 }
@@ -70,7 +78,7 @@ li {
 
 li a {
   display: block;
-  color: #ffef8e;
+  color: #17081e;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -85,8 +93,7 @@ li a:hover {
   height: 60px;
   bottom: 40px;
   right: 40px;
-  background-color: rgba(255, 22, 206, 0.75);
-  color: #fff;
+  background-color: #fc10e1;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 50px;
@@ -104,9 +111,7 @@ li a:hover {
   padding: 0 8px;
   padding-top: 85px;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+
 .container {
   padding: 0 16px;
   text-align: center;
@@ -156,7 +161,6 @@ img.img {
 }
 
 .eventContainer {
-  background: rgba(16, 14, 39, 0.33);
   display: flex;
   align-content: center;
   align-items: center;
@@ -165,9 +169,6 @@ img.img {
   width: 28%;
   min-width: 300px;
   max-height: 400px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
 }
 
 .infoContainer {
@@ -184,11 +185,11 @@ img.img {
   font-size: 28px;
   margin-top: 10px;
   text-align: center;
-  color: #ffef8e;
+  color: #fc10e1;
 }
 
 .hour {
-  color: #ffef8e;
+  color: #fc10e1;
 }
 
 .eventImg {
@@ -199,24 +200,22 @@ img.img {
 }
 
 .button-container-div {
-  height: 100%;
-  border: 1px solid #ff8899;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 button {
+  margin-top: 100px;
   background-color: black;
-  color: #fff;
   border: 1px solid black;
-  padding: 10px;
   width: 300px;
   outline: none;
-  margin: auto;
   border-radius: 15px;
-  font-family: Garamond, serif;
   font-size: 20px;
+  padding: 20px;
 }
 
 section {
