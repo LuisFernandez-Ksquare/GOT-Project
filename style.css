@@ -18,8 +18,8 @@ body {
   background: rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(18.3px);
-  -webkit-backdrop-filter: blur(18.3px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(2px);
 }
 .home {
   display: flex;
@@ -56,6 +56,7 @@ ul {
 
 li {
   float: left;
+  font-family: 'Cinzel', Cursive, Helvetica, sans-serif;
 }
 
 li a {
@@ -133,7 +134,7 @@ img.img {
   justify-content: center;
   align-items: center;
   padding-top: 25px;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Cinzel', Cursive, Helvetica, sans-serif;
   font-size: 40px;
 }
 
@@ -165,7 +166,7 @@ img.img {
   align-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: Garamond, serif;
+  font-family: 'Fauna One', serif;
   font-size: 20px;  
 }
 
@@ -174,11 +175,16 @@ img.img {
   font-size: 28px;
   margin-top: 10px;
   text-align: center;
-  color: #ffef8e;
+  color: #b21ea0;
 }
 
 .hour {
-  color: #ffef8e;
+  color: #f027d9;
+  font-family: 'Fauna One', serif;
+}
+
+.titles{
+  color: #000;
 }
 
 .eventImg {
