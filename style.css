@@ -10,10 +10,7 @@ html {
 }
 body {
   background-color: darkmagenta;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .bg{
   width: 75%;
@@ -41,7 +38,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 

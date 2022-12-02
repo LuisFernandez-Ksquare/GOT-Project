@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/6b471baa19.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   </head>
@@ -37,7 +38,7 @@
       <i class="fa fa-pause my-float" id="icon"></i>
     </a>
 
-    <section id="events" class=" glass">
+    <section id="events" class=" glass" data-aos="fade-left" >
       <div class="header"><h2 class="hour">EVENTS</h2></div>
       <div class="mainContainer">
       <div class="eventContainer">
@@ -85,13 +86,13 @@
     </div>
     </section>
 
-       <section id="contacts" class="glass">
+       <section id="contacts" class="glass" data-aos="fade-down">
         <div class="button-container-div">
           <button><a class="hour" href="https://1zpsf893lnq.typeform.com/to/AqdHnVba">CONTACT</a></button>
         </div>
        </section>
        
-       <section id="meettheteam" class="glass">
+       <section id="meettheteam" class="glass" data-aos="fade-right">
       <div class="header"><h2 class="hour">MEET THE TEAM</h2></div>
       <div class="mtt">
         <div class="column">
@@ -154,6 +155,15 @@
         </div>
       </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        delay: 300,
+        once: false,
+      });
+    </script>
 
     <script src="./script.js"></script>
   </body>
