@@ -83,6 +83,7 @@ li a:hover {
   border-radius: 50px;
   text-align: center;
   box-shadow: 2px 2px 3px #999;
+  z-index: 10;
 }
 .my-float {
   margin-top: 22px;
@@ -222,7 +223,7 @@ section {
   z-index: 0;
 }
 
-.fa {
+.container > .fa {
   padding: 5px;
   font-size: 10px;
   width: 40px;
