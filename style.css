@@ -158,6 +158,8 @@ img.img {
   flex-flow: wrap;
   justify-content: center;
   padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .eventContainer {
@@ -166,7 +168,7 @@ img.img {
   align-items: center;
   border-radius: 25px;
   flex-direction: column;
-  width: 28%;
+  width: 25%;
   min-width: 300px;
   max-height: 400px;
 }
@@ -186,6 +188,7 @@ img.img {
   margin-top: 10px;
   text-align: center;
   color: #fc10e1;
+  padding-bottom: 10px;
 }
 
 .hour {
