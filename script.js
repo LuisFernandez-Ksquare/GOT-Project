@@ -17,7 +17,6 @@ floatButton.addEventListener("click", function () {
   }
 });
 
-//comment to delete
 
 window.onscroll = function() {scrollFunction()};
 
