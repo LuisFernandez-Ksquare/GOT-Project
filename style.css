@@ -5,6 +5,9 @@
   color: aliceblue;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
   background-image: url(images/The_Verge_GOT_Landscape_Wallpaper.0.png);
@@ -12,7 +15,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  scroll-behavior: smooth;
 }
 .glass {
   background: rgba(255, 255, 255, 0.18);
