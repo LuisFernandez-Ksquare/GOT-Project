@@ -240,25 +240,26 @@ section {
 }
 
 .fa:hover {
-    opacity: 0.7;
+    background: rgba(252, 16, 225, 0.4);
+    
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #fc10e1;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #fc10e1;
   color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #fc10e1;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #fc10e1;
   color: white;
 }
